@@ -7,21 +7,36 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            font-family: 'Segoe UI', sans-serif;
-        }
+        body body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
         
-       #particles-js {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: 
-            linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(8, 24, 43, 0.7)),
-            url(img/Illustration\ Chateau.jpg) no-repeat center center / cover;
-            z-index: -1;
-        }
+       html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(8, 24, 43, 0.7)),
+        url('img/Illustration Chateau.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
 
         
         .social-card {
